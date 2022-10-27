@@ -1,6 +1,7 @@
 package Kattis;
 
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class falsesecurity {
     public static void main(String[] args) {
@@ -25,6 +26,7 @@ public class falsesecurity {
         decode.put(".-.", 'R');
         decode.put("...", 'S');
         decode.put("-", 'T');
+        decode.put("..-", 'U');
         decode.put("...-", 'V');
         decode.put(".--", 'W');
         decode.put("-..-", 'X');
@@ -40,6 +42,7 @@ public class falsesecurity {
         encode.put('B', "-...");
         encode.put('C', "-.-.");
         encode.put('D', "-..");
+        encode.put('E', ".");
         encode.put('F', "..-.");
         encode.put('G', "--.");
         encode.put('H', "....");
@@ -55,6 +58,7 @@ public class falsesecurity {
         encode.put('R', ".-.");
         encode.put('S', "...");
         encode.put('T', "-");
+        encode.put('U', "..-");
         encode.put('V', "...-");
         encode.put('W', ".--");
         encode.put('X', "-..-");
@@ -64,6 +68,25 @@ public class falsesecurity {
         encode.put(',', ".-.-");
         encode.put('.', "---.");
         encode.put('?', "----");
-
+        Scanner scan = new Scanner(System.in);
+        while (scan.hasNext()) {
+            String a = scan.next();
+            String b = "";
+            String number = "";
+            String result = "";
+            for (int i = 0; i < a.length(); i++) {
+                b += encode.get(a.charAt(i));
+                number += encode.get(a.charAt(i)).length();
+            }
+            String reverse = new StringBuilder(number).reverse().toString();
+            int index = 0;
+            for (int i = 0; i < a.length(); i++) {
+                int num = reverse.charAt(i) - '0';
+                result += decode.get(b.substring(index, num + index));
+                index += num;
+            }
+            System.out.println(result);
+        }
+        scan.close();
     }
 }
