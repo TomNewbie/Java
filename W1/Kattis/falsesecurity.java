@@ -74,12 +74,18 @@ public class falsesecurity {
             String b = "";
             String number = "";
             String result = "";
+            // First we Convert the text to Morse code without pauses but with a string of
+            // numbers to indicate code lengths.
             for (int i = 0; i < a.length(); i++) {
                 b += encode.get(a.charAt(i));
                 number += encode.get(a.charAt(i)).length();
             }
+            // Reverse the string of numbers.
             String reverse = new StringBuilder(number).reverse().toString();
             int index = 0;
+            // Convert the dots and dashes back into the text using the reversed string of
+            // numbers as code lengths.
+
             for (int i = 0; i < a.length(); i++) {
                 int num = reverse.charAt(i) - '0';
                 result += decode.get(b.substring(index, num + index));

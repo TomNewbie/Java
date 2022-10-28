@@ -1,13 +1,14 @@
 package Kattis;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Scanner;
 
 public class cudoviste {
     public static int posx[] = { 1, 0 };
     public static int posy[] = { 1, 0 };
 
+    // Function count number of place to park given that it has to crash amount of
+    // car
     public static int countPark(int row, int col, ArrayList<String> map, int crash) {
 
         int total = 0;

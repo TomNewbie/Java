@@ -14,18 +14,17 @@ public class Jabuke {
             this.y = y;
         }
 
+        // Calculate vector coordinate given 2 Point
         static Coord vector(Coord A, Coord B) {
             return new Coord(B.x - A.x, B.y - A.y);
         }
 
-        // static double Area(Coord A, Coord B, Coord C) {
-        // return Math.abs(A.x * (B.y - C.y) + B.x * (C.y - A.y) + C.x * (A.y - B.y)) /
-        // 2;
-        // }
+        // Calculate Area given 2 vector, see cross product for more information
         static double Area(Coord A, Coord B) {
             return Math.abs(Coord.determinant(A, B) / 2);
         }
 
+        // Calculate determinant of 2 vector
         static double determinant(Coord A, Coord B) {
             return A.x * B.y - A.y * B.x;
         }
@@ -34,6 +33,7 @@ public class Jabuke {
             System.out.println("x: " + x + " y: " + y);
         }
 
+        // Triangle Interior
         static boolean checkInsideTriangle(Coord X, Coord AB, Coord AC) {
             double a = Coord.determinant(X, AC) / Coord.determinant(AB, AC);
             double b = Coord.determinant(AB, X) / Coord.determinant(AB, AC);
@@ -52,6 +52,7 @@ public class Jabuke {
             Double y = scan.nextDouble();
             triangle_coor.add(new Coord(x, y));
         }
+        // Create vector AB and AC
         Coord AB = Coord.vector(triangle_coor.get(0), triangle_coor.get(1));
         Coord AC = Coord.vector(triangle_coor.get(0), triangle_coor.get(2));
         int numPoint = scan.nextInt();
@@ -59,8 +60,9 @@ public class Jabuke {
         for (int i = 0; i < numPoint; i++) {
             Double x = scan.nextDouble();
             Double y = scan.nextDouble();
-            Coord D = new Coord(x - triangle_coor.get(0).x, y - triangle_coor.get(0).y);
-            if (Coord.checkInsideTriangle(D, AB, AC)) {
+            // Create vector AD
+            Coord AD = new Coord(x - triangle_coor.get(0).x, y - triangle_coor.get(0).y);
+            if (Coord.checkInsideTriangle(AD, AB, AC)) {
                 count++;
             }
         }
