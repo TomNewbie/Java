@@ -3,32 +3,35 @@ import java.util.Scanner;
 public class parking {
   public static void main(String[] args) {
     Scanner read = new Scanner(System.in);
-    int d, e, f, g, h, i,j;
-    int[] mynumbers = {0, read.nextInt(), read.nextInt(), read.nextInt()};
+    int arrivalTime1, departTime1, arrivalTime2, departTime2, arrivalTime3, departTime3,j;
+    // Price corresponding to number of cars
+    int[] priceOfParking = {0, read.nextInt(), read.nextInt(), read.nextInt()};
    
-    d = read.nextInt();
-    e = read.nextInt();
-    f = read.nextInt();
-    g = read.nextInt();
-    h = read.nextInt();
-    i = read.nextInt();
-    int currentnum = 0;
-    int num = 0;
+    arrivalTime1 = read.nextInt();
+    departTime1 = read.nextInt();
+    arrivalTime2 = read.nextInt();
+    departTime2 = read.nextInt();
+    arrivalTime3 = read.nextInt();
+    departTime3 = read.nextInt();
+    
+    int currentCarNum = 0;
+    int sumCost = 0;
     for (j = 1; j < 100; j++) {
       if(j == d) {
-        currentnum++;}
+        currentCarNum++;}
       if(j == f) {
-        currentnum++;}
+        currentCarNum++;}
       if(j == h) {
-        currentnum++;}
+        currentCarNum++;}
       if(j == e) {
-        currentnum--;}
+        currentCarNum--;}
       if(j == g) {
-        currentnum--;}
+        currentCarNum--;}
       if(j == i) {
-        currentnum--;}
-      num+=currentnum * mynumbers[currentnum];
+        currentCarNum--;}
+      // mynumbers[currentnum]: choose the price corresponding to the number of cars
+      sumCost+=currentCarNum * priceOfParking[currentCarNum];
     }
-    System.out.println(num);
+    System.out.println(sumCost);
   }
 }
