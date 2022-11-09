@@ -54,5 +54,6 @@ public class boundingrobots {
             System.out.println();
         }
         scan.close();
+
     }
 }
