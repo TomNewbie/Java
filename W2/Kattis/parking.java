@@ -3,29 +3,29 @@ import java.util.Scanner;
 public class parking {
   public static void main(String[] args) {
     Scanner read = new Scanner(System.in);
-    int d, e, f, g, h, i, j;
+    int A, B, C, g, h, j, i;
     int[] mynumbers = { 0, read.nextInt(), read.nextInt(), read.nextInt() };
 
-    d = read.nextInt();
-    e = read.nextInt();
-    f = read.nextInt();
+    A = read.nextInt();
+    B = read.nextInt();
+    C = read.nextInt();
     g = read.nextInt();
     h = read.nextInt();
     i = read.nextInt();
     int currentnum = 0;
     int num = 0;
     for (j = 1; j < 100; j++) {
-      if (j == d) {
+      if (j == A) {
         currentnum++;
       }
-      if (j == f) {
+      if (j == B) {
+        currentnum++;
+      }
+      if (j == C) {
         currentnum++;
       }
       if (j == h) {
         currentnum++;
-      }
-      if (j == e) {
-        currentnum--;
       }
       if (j == g) {
         currentnum--;

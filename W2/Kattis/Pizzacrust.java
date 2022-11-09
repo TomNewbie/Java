@@ -7,8 +7,8 @@ public class Pizzacrust {
         
         double radius= enter.nextDouble();
         
-        double c= enter.nextDouble();
-        double num =Math.pow(radius-c,2);
+        double crust= enter.nextDouble();
+        double num =Math.pow(radius-crust,2);
         System.out.println(num/(radius*radius)*100);
 	}
 
