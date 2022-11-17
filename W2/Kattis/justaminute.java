@@ -25,7 +25,7 @@ public class justaminute {
         if(minimum >= seconds) {
             System.out.println("measurement error");}
         else {
-     System.out.printf("%.9f", calc(seconds,minimum));}
+     System.out.format("%.9f", calc(seconds,minimum));}
       
     }
 }
