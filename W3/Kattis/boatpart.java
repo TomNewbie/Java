@@ -9,11 +9,11 @@ public class boatpart {
 		  String[] line = enteringvalues.nextLine().split(" ");
 		    int parts = Integer.parseInt(line[0]);
 		    int days = Integer.parseInt(line[1]);
-		    HashSet<String> hashset = new HashSet<>();
+		    HashSet<String> mylist = new HashSet<>();
 		    do{
 		      String currentline = enteringvalues.nextLine();
-		      hashset.add(currentline);
-		      if (hashset.size() == parts) {
+		      mylist.add(currentline);
+		      if (mylist.size() == parts) {
 		        System.out.println(i + 1);
 		        break;
 		      }
