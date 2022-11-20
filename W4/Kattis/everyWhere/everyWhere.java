@@ -1,3 +1,15 @@
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: I've Been Everywhere, Man
+* Link: https://open.kattis.com/contests/tbnznz/problems/everywhere
+* @author Trần Hoàng Kim 
+* @version 1.0, 2022-11-18
+*
+* Method : Ad-Hoc
+* Status : Accepted
+* Runtime: 0.15s 
+*/
+
 import java.util.Scanner;
 import java.util.*;
 
