@@ -1,3 +1,15 @@
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Alphabet Spam
+* Link: https://open.kattis.com/contests/tbnznz/problems/alphabetspam
+* @author Trần Hoàng Kim 
+* @version 1.0, 2022-11-16 
+*
+* Method : Ad-Hoc
+* Status : Accepted
+* Runtime: 0.16s 
+*/
+
 import java.util.Scanner;
 
 public class alphabetSpam {
