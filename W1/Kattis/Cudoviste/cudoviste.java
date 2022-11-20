@@ -1,4 +1,4 @@
-package Kattis;
+// package Kattis;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -43,17 +43,6 @@ public class cudoviste {
         return total;
 
     }
-
-    // public static int countNum(int row, int col, ArrayList<String> map, int
-    // crash) {
-    // int total = 0;
-    // for (int i = 0; i < row; i++) {
-    // for (int j = 0; j < col; j++) {
-    // total += canPark(i, j, row, col, map, crash);
-    // }
-    // }
-    // return total;
-    // }
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

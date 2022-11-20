@@ -1,5 +1,14 @@
-package Kattis;
 
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Bus
+* Link: https://open.kattis.com/contests/ggi5da/problems/bus
+* @author Tho Phan Chi
+* 
+* Method : Math
+* Status : Accepted
+* Runtime: 0.10
+*/
 import java.util.Scanner;
 
 public class bus {

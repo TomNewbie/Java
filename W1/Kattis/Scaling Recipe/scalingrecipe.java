@@ -1,9 +1,9 @@
-package Kattis;
+// package Kattis;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ScalingRecipe {
+public class scalingrecipe {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int numTestCase = scan.nextInt();

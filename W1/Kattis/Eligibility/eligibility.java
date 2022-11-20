@@ -1,4 +1,4 @@
-package Kattis;
+// package Kattis;
 
 import java.util.Scanner;
 

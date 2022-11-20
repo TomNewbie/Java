@@ -1,4 +1,3 @@
-package Kattis;
 
 import java.util.*;
 
