@@ -1,4 +1,14 @@
-package W2.Kattis;
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Take Two Stones
+* Link: https://open.kattis.com/contests/ggi5da/problems/twostones
+* @author Trần Hoàng Kim
+* @version 1.0, 2022-10-31 
+* 
+* Method : Ad-Hoc
+* Status : Accepted
+* Runtime: 0.10s
+*/
 
 import java.util.Scanner;
 
