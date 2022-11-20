@@ -5,7 +5,7 @@ import java.util.Scanner;
 * Problem: Problem M Just a Minute
 * Link: https://open.kattis.com/contests/ggi5da/problems/justaminute
 * @author Ferid Gökkaya
-* @version 1.0, 10/23/2018
+* @version 1.0, 2022-11-02
 * Method : Ad-Hoc
 * Status : Accepted
 * Runtime: 0.102
