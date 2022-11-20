@@ -1,3 +1,15 @@
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Bela 
+* Link: https://open.kattis.com/contests/tbnznz/problems/bela
+* @author Trần Hoàng Kim 
+* @version 1.0, 2022-11-16
+*
+* Method : Ad-Hoc
+* Status : Accepted
+* Runtime: 0.11s 
+*/
+
 import java.util.Scanner;
 import java.util.*;
 
