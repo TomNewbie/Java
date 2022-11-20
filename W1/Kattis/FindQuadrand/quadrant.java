@@ -1,5 +1,15 @@
 package Kattis;
-
+/** 
+* Advanced Object Oriented Programming with Java, WS 2018 
+* Problem: Problem E Quadrant Selection
+* Link:https://open.kattis.com/contests/mjt68e/problems/quadrant
+* @author Ferid Gökkaya
+* @version 1.0, 2022-10-27 
+* 
+* Method : Ad-Hoc 
+* Status : Accepted 
+* Runtime: 0.102 
+*/
 import java.util.*;
 
 public class quadrant {
