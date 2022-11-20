@@ -1,5 +1,15 @@
 import java.util.*;
-
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Problem B Saving Daylight
+* Link: https://open.kattis.com/contests/tbnznz/problems/savingdaylight
+* @author Ferid Gökkaya
+* @version 1.0,2022-11-14
+* 
+* Method : Ad-Hoc
+* Status : Accepted
+* Runtime: 0.102
+*/
 public class savingdaylight {
      public static void show() {
           Scanner sc = new Scanner(System.in);

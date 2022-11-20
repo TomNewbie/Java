@@ -1,4 +1,15 @@
 import java.util.Scanner;
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Problem Grass Seed Inc.
+* Link: https://open.kattis.com/contests/ggi5da/problems/grassseed
+* @author Ferid Gökkaya
+* @version 1.0, 2022-10-30 
+* 
+* Method : Ad-Hoc
+* Status : Accepted
+* Runtime: 0.102
+*/	
 public class GrassseedInc {
 
 	public static void main(String[] args) {
