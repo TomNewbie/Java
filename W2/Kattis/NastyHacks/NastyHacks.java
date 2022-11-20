@@ -1,4 +1,14 @@
-package W2.Kattis;
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Nasty Hacks
+* Link: https://open.kattis.com/contests/ggi5da/problems/nastyhacks
+* @author Trần Hoàng Kim 
+* @version 1.0, 2022-10-31
+*
+* Method : Ad-Hoc
+* Status : Accepted
+* Runtime: 0.12s 
+*/
 
 import java.util.Scanner;
 
