@@ -1,6 +1,16 @@
 import java.util.*;
 
-
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Problem A Boat Parts
+* Link: https://open.kattis.com/contests/uk27ry/problems/boatparts
+* @author Ferid Gökkaya
+* @version 1.0,	2022-11-06
+* 
+* Method : Ad-Hoc
+* Status : Accepted
+* Runtime: 0.102
+*/
 public class boatpart {
 
 	public static void main(String[] args) {
