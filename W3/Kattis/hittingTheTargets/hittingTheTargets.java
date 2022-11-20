@@ -1,3 +1,15 @@
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Hitting the Targets
+* Link: https://open.kattis.com/contests/uk27ry/problems/hittingtargets
+* @author Trần Hoàng Kim 
+* @version 1.0, 2022-11-11
+*
+* Method : Math 
+* Status : Accepted
+* Runtime: 0.12s 
+*/
+
 import java.util.Scanner;
 import java.util.*;
 
