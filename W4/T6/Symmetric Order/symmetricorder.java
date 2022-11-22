@@ -1,7 +1,7 @@
 
 /**
 * Advanced Object Oriented Programming with Java, WS 2022
-* Problem: Racing Around the Alphabet
+* Problem: Symmetric Order
 
 * Link: https://open.kattis.com/contests/tbnznz/problems/symmetricorder
 * @author Tho Phan Chi

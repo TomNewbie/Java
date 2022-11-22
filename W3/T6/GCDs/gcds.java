@@ -2,7 +2,7 @@
 /**
 * Advanced Object Oriented Programming with Java, WS 2022
 * Problem: 	GCDs
-* Link: https://open.kattis.com/contests/ggi5da/problems/gcds
+* Link: https://open.kattis.com/contests/uk27ry/problems/gcds
 * @author Tho Phan Chi
 * @version 1.0,2022-11-11
 * 

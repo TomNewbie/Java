@@ -2,7 +2,7 @@
 /**
 * Advanced Object Oriented Programming with Java, WS 2022
 * Problem: 	Smallest Multiple
-* Link: https://open.kattis.com/contests/ggi5da/problems/smallestmultiple
+* Link: https://open.kattis.com/contests/uk27ry/problems/smallestmultiple
 * @author Tho Phan Chi
 * @version 1.0,2022-11-11
 * 

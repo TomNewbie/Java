@@ -5,7 +5,7 @@
 
 * Link: https://open.kattis.com/contests/tbnznz/problems/musicalnotation
 * @author Tho Phan Chi
-* @version 1.0,2022-11-11
+* @version 1.0,2022-11-19
 * 
 * Status : Accepted
 */

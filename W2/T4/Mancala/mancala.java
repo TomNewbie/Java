@@ -1,5 +1,13 @@
-// package T4;
 
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Mancala
+* Link: https://open.kattis.com/contests/ggi5da/problems/mancala
+* @author Tho Phan Chi
+* @version 1.0,2022-10-31
+* 
+* Status : Accepted
+*/
 import java.util.Scanner;
 
 public class mancala {
