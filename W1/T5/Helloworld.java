@@ -1,4 +1,4 @@
-package Kattis;
+// package Kattis;
 
 public class Helloworld {
     public static void main(String[] args) {
