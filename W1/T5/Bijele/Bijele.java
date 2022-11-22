@@ -1,5 +1,3 @@
-
-import java.util.Scanner;
 /**
 * Advanced Object Oriented Programming with Java, WS 2022
 * Problem: Bijele
@@ -10,6 +8,9 @@ import java.util.Scanner;
 * Method : Ad-Hoc
 * Status : Accepted
 */
+
+import java.util.Scanner;
+
 public class Bijele {
 
 	public static void main(String[] args) {
