@@ -1,16 +1,17 @@
 import java.util.*;
+
 /**
-* Advanced Object Oriented Programming with Java, WS 2022
-* Problem: Problem A Un-bear-able Zoo
-* Link: https://open.kattis.com/contests/tbnznz/problems/zoo
-* @author Ferid Gökkaya
-* @version 1.0, 2022-11-14 
-* 
-* Method : Ad-Hoc
-* Status : Accepted
-* Runtime: 0.102
-*/
-import java.util.*;
+ * Advanced Object Oriented Programming with Java, WS 2022
+ * Problem: Problem A Un-bear-able Zoo
+ * Link: https://open.kattis.com/contests/tbnznz/problems/zoo
+ * 
+ * @author Ferid Gökkaya
+ * @version 1.0, 2022-11-14
+ * 
+ *          Method : Ad-Hoc
+ *          Status : Accepted
+ *          Runtime: 0.102
+ */
 
 public class unbearablezoo {
 

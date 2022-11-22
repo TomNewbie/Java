@@ -1,5 +1,14 @@
-package Kattis;
 
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Welcome to Code Jam (Easy)
+
+* Link: https://open.kattis.com/contests/tbnznz/problems/welcomeeasy
+* @author Tho Phan Chi
+* @version 1.0,2022-11-20
+* 
+* Status : Accepted
+*/
 import java.util.ArrayList;
 import java.util.Scanner;
 

@@ -1,4 +1,14 @@
 
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: 	Password Hacking
+
+* Link: https://open.kattis.com/contests/tbnznz/problems/password
+* @author Tho Phan Chi
+* @version 1.0,2022-11-20
+* 
+* Status : Accepted
+*/
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;

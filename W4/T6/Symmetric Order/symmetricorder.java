@@ -1,5 +1,14 @@
-// package Kattis.Symmetric
 
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Racing Around the Alphabet
+
+* Link: https://open.kattis.com/contests/tbnznz/problems/symmetricorder
+* @author Tho Phan Chi
+* @version 1.0,2022-11-20
+* 
+* Status : Accepted
+*/
 import java.util.Scanner;
 
 public class symmetricorder {

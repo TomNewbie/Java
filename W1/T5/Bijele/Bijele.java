@@ -1,15 +1,17 @@
 
 import java.util.Scanner;
+
 /**
-* Advanced Object Oriented Programming with Java, WS 2022
-* Problem: Bijele
-* Link: https://open.kattis.com/contests/mjt68e/problems/bijele
-* @author Ferid Gökkaya 
-* @version 1.0,2022-10-21
-* 
-* Method : Ad-Hoc
-* Status : Accepted
-*/
+ * Advanced Object Oriented Programming with Java, WS 2022
+ * Problem: Bijele
+ * Link: https://open.kattis.com/contests/mjt68e/problems/bijele
+ * 
+ * @author Ferid Gökkaya
+ * @version 1.0,2022-10-21
+ * 
+ *          Method : Ad-Hoc
+ *          Status : Accepted
+ */
 public class Bijele {
 
 	public static void main(String[] args) {

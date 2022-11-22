@@ -2,7 +2,7 @@
 /**
 * Advanced Object Oriented Programming with Java, WS 2022
 * Problem: Prime Sieve
-* Link: https://open.kattis.com/contests/ggi5da/problems/primesieve
+* Link: https://open.kattis.com/contests/uk27ry/problems/primesieve
 * @author Tho Phan Chi
 * @version 1.0,2022-11-11
 * 
@@ -21,14 +21,14 @@ public class primesieve {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int checkNum = scan.nextInt();
-        int numPrime = checkNum - 1;
+        int n = scan.nextInt();
+        int numPrime = n - 1;
         arrPrime = new BitSet();
-        arrPrime.set(1, checkNum, true);
+        arrPrime.set(1, n, true);
         // Create Bit Set of Prime indicate that true valuue is Prime, false otherwise
-        for (int i = 2; i <= Math.sqrt(checkNum); i++) {
+        for (int i = 2; i <= Math.sqrt(n); i++) {
             if (arrPrime.get(i - 1)) {
-                for (int j = i * i; j <= checkNum; j += i) {
+                for (int j = i * i; j <= n; j += i) {
                     if (arrPrime.get(j - 1)) {
                         numPrime--;
                     }

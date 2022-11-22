@@ -1,7 +1,16 @@
+
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Racing Around the Alphabet
+
+* Link: https://open.kattis.com/contests/tbnznz/problems/racingalphabet
+* @author Tho Phan Chi
+* @version 1.0,2022-11-20
+* 
+* Status : Accepted
+*/
 import java.util.HashMap;
 import java.util.Scanner;
-
-// package Kattis;
 
 public class racingalphabet {
     public static void main(String[] args) {

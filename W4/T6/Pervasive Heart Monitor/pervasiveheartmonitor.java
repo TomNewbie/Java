@@ -1,6 +1,15 @@
-import java.util.Scanner;
 
-// package Kattis.Pervasive Heart Monitor;
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: 	Pervasive Heart Monitor
+
+* Link: https://open.kattis.com/contests/tbnznz/problems/pervasiveheartmonitor
+* @author Tho Phan Chi
+* @version 1.0,2022-11-20
+* 
+* Status : Accepted
+*/
+import java.util.Scanner;
 
 public class pervasiveheartmonitor {
     public static void main(String[] args) {
