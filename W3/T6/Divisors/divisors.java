@@ -1,3 +1,13 @@
+
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: 	Divisors
+* Link: https://open.kattis.com/contests/uk27ry/problems/divisors
+* @author Tho Phan Chi
+* @version 1.0,2022-11-11
+* 
+* Status : Accepted
+*/
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.BitSet;

@@ -1,3 +1,4 @@
+
 /**
 * Advanced Object Oriented Programming with Java, WS 2022
 * Problem: Detailed Differences
@@ -13,8 +14,8 @@
 import java.util.Scanner;
 
 public class detailedDifferences {
-    public static void main (String[]args) {
-        Scanner sc = new Scanner (System.in);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         int testCasesNumber = sc.nextInt();
         for (int i = 0; i < testCasesNumber; i++) {
             String string1 = sc.next();

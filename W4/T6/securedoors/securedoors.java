@@ -8,36 +8,29 @@ public class securedoors {
 		int lines = read.nextInt();
 		ArrayList<String> buildings = new ArrayList<>();
 
-		for (int i = 0; i < lines; i++)
-			{
+		for (int i = 0; i < lines; i++) {
 			String track = read.next();
 			String name = read.next();
-			
-			if (track.equals("entry"))
-				{
+
+			if (track.equals("entry")) {
 				System.out.print(name + " entered");
-				
+
 				if (buildings.contains(name))
 					System.out.println(" (ANOMALY)");
-				else
-					{
+				else {
 					buildings.add(name);
 					System.out.println();
-					}
 				}
-			else
-				{
+			} else {
 				System.out.print(name + " exited");
-				
-				if (! buildings.contains(name))
+
+				if (!buildings.contains(name))
 					System.out.println(" (ANOMALY)");
-				else
-					{
+				else {
 					buildings.remove(name);
 					System.out.println();
-					}
 				}
 			}
-    }
+		}
 	}
-
+}

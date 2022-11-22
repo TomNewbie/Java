@@ -1,3 +1,4 @@
+
 /**
 * Advanced Object Oriented Programming with Java, WS 2022
 * Problem: IsItHalloween.com
@@ -17,8 +18,8 @@ public class IsItHalloween {
 		Scanner sc = new Scanner(System.in);
 		String month = sc.next();
 		int day = sc.nextInt();
-		
-		if((month.equals("OCT") && day == 31) || (month.equals("DEC") && day == 25)) {
+
+		if ((month.equals("OCT") && day == 31) || (month.equals("DEC") && day == 25)) {
 			System.out.println("yup");
 		} else {
 			System.out.println("nope");

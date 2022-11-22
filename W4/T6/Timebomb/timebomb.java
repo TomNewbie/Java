@@ -1,3 +1,5 @@
+// package T6.Timebomb;
+
 import java.util.Scanner;
 
 public class timebomb {

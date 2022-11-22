@@ -1,3 +1,4 @@
+
 /**
 * Advanced Object Oriented Programming with Java, WS 2022
 * Problem: Alphabet Spam
@@ -21,7 +22,7 @@ public class alphabetSpam {
         double symbolsCount = 0.0;
         double spaceCount = 0.0;
         for (int i = 0; i < sample.length(); i++) {
-            if (sample.charAt(i) >= 'a' && sample.charAt(i) <='z') {
+            if (sample.charAt(i) >= 'a' && sample.charAt(i) <= 'z') {
                 lowerCaseLettersCount++;
             } else if (sample.charAt(i) >= 'A' && sample.charAt(i) <= 'Z') {
                 upperCaseLettersCount++;
@@ -32,12 +33,12 @@ public class alphabetSpam {
             }
         }
 
-    sc.close();
-    
-    System.out.println(spaceCount / sample.length());
-    System.out.println(lowerCaseLettersCount / sample.length());
-    System.out.println(upperCaseLettersCount /sample.length());
-    System.out.println(symbolsCount / sample.length());
-    
+        sc.close();
+
+        System.out.println(spaceCount / sample.length());
+        System.out.println(lowerCaseLettersCount / sample.length());
+        System.out.println(upperCaseLettersCount / sample.length());
+        System.out.println(symbolsCount / sample.length());
+
     }
 }

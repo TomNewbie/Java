@@ -1,4 +1,4 @@
-package Kattis;
+
 /**
 * Advanced Object Oriented Programming with Java, WS 2022
 * Problem: Problem C Ladder

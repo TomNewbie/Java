@@ -1,10 +1,7 @@
-package Kattis;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
-
-// package W4;
 
 public class password {
     public static void main(String[] args) {

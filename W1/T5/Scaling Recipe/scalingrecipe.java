@@ -1,5 +1,15 @@
-// package Kattis;
 
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Scaling Recipe
+* Link: https://open.kattis.com/contests/mjt68e/problems/scalingrecipe
+* @author Tho Phan Chi
+* @version 1.0,2022-10-27
+* 
+* Method : Math
+* Run-time: 0.15
+* Status : Accepted
+*/
 import java.util.ArrayList;
 import java.util.Scanner;
 

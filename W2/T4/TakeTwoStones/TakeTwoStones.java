@@ -1,3 +1,4 @@
+
 /**
 * Advanced Object Oriented Programming with Java, WS 2022
 * Problem: Take Two Stones
@@ -14,12 +15,12 @@ import java.util.Scanner;
 
 public class TakeTwoStones {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner (System.in);
+		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
-		
+
 		if (N >= 1 && N <= 10000000) {
 			N = N % 2;
-			
+
 			if (N != 0) {
 				System.out.println("Alice");
 			} else {

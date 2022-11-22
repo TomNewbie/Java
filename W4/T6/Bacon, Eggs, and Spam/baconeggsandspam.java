@@ -1,3 +1,14 @@
+
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: 	Bacon, Eggs, and Spam
+
+* Link: https://open.kattis.com/contests/tbnznz/problems/baconeggsandspam
+* @author Tho Phan Chi
+* @version 1.0,2022-11-11
+* 
+* Status : Accepted
+*/
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;

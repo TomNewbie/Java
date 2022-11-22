@@ -1,8 +1,18 @@
+
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Musical Notation
+
+* Link: https://open.kattis.com/contests/tbnznz/problems/musicalnotation
+* @author Tho Phan Chi
+* @version 1.0,2022-11-11
+* 
+* Status : Accepted
+*/
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
-
-// package Kattis.Musical Notation;
 
 public class musicalnotation {
     public static void main(String[] args) {

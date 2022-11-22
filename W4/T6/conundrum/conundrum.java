@@ -1,3 +1,4 @@
+
 /**
 * Advanced Object Oriented Programming with Java, WS 2022
 * Problem: Cryptographer's Conundrum
@@ -13,7 +14,7 @@
 import java.util.Scanner;
 
 public class conundrum {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         String text = "PER";
         for (int i = 1; i < 100; i++) {
             text += "PER";

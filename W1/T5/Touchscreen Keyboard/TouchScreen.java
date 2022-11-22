@@ -1,4 +1,15 @@
-package Kattis;
+
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Touchscreen Keyboard
+* Link: https://open.kattis.com/contests/mjt68e/problems/touchscreenkeyboard
+* @author Tho Phan Chi
+* @version 1.0,2022-10-27
+* 
+* Method : Hash-map
+* Run-time: 0.15
+* Status : Accepted
+*/
 
 import java.util.ArrayList;
 import java.util.Collections;

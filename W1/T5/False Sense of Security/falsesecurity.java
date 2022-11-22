@@ -1,5 +1,15 @@
-package Kattis;
 
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: False Sense of Security
+* Link: https://open.kattis.com/contests/mjt68e/problems/falsesecurity
+* @author Tho Phan Chi
+* @version 1.0,2022-10-27
+* 
+* Method : Ad-hoc
+* Run-time: 0.57
+* Status : Accepted
+*/
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -7,7 +17,7 @@ public class falsesecurity {
     public static void main(String[] args) {
         // Create a HashMap object called decode
         HashMap<String, Character> decode = new HashMap<>();
-        
+
         // Add keys and value (Morse code, Letter)
         decode.put(".-", 'A');
         decode.put("-...", 'B');
@@ -39,7 +49,7 @@ public class falsesecurity {
         decode.put(".-.-", ',');
         decode.put("---.", '.');
         decode.put("----", '?');
-        
+
         // Create a HashMap object called encode
         HashMap<Character, String> encode = new HashMap<>();
 
@@ -74,7 +84,7 @@ public class falsesecurity {
         encode.put(',', ".-.-");
         encode.put('.', "---.");
         encode.put('?', "----");
-        
+
         Scanner scan = new Scanner(System.in);
         while (scan.hasNext()) {
             String a = scan.next();
@@ -87,11 +97,11 @@ public class falsesecurity {
                 b += encode.get(a.charAt(i));
                 number += encode.get(a.charAt(i)).length();
             }
-            
+
             // Reverse the string of numbers.
             String reverse = new StringBuilder(number).reverse().toString();
             int index = 0;
-            
+
             // Convert the dots and dashes back into the text using the reversed string of
             // numbers as code lengths.
 

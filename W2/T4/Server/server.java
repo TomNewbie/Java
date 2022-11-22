@@ -1,4 +1,3 @@
-package W2.Kattis;
 
 import java.util.Scanner;
 

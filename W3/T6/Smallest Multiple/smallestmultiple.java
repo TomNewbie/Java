@@ -1,5 +1,13 @@
-// package W3.Kattis;
 
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: 	Smallest Multiple
+* Link: https://open.kattis.com/contests/ggi5da/problems/smallestmultiple
+* @author Tho Phan Chi
+* @version 1.0,2022-11-11
+* 
+* Status : Accepted
+*/
 import java.math.BigInteger;
 import java.util.Scanner;
 

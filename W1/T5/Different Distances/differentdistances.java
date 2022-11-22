@@ -1,5 +1,15 @@
-// package Kattis;
 
+/**
+* Advanced Object Oriented Programming with Java, WS 2022
+* Problem: Different Distances
+* Link: https://open.kattis.com/contests/mjt68e/problems/differentdistances
+* @author Tho Phan Chi
+* @version 1.0,2022-10-27
+* 
+* Method : Algebra
+* Run-time: 0.45
+* Status : Accepted
+*/
 import java.util.Scanner;
 import java.lang.Math;
 
